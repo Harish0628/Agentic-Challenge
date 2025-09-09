@@ -1,12 +1,11 @@
 from fastmcp import FastMCP
 import requests
+import os
 
-
-API_key="bc3bd9c0e3e5905df8d9ea8e1493d9dd"
-
+API_key=os.environ.get("OPENWEATHER_API_KEY")
 
 mcp = FastMCP("My MCP Server")
-    
+#------------------------MCP Server----------------------
 @mcp.tool
 def get_weather(city: str):
 

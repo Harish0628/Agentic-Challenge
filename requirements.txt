@@ -1,15 +1,4 @@
-#Python modules required are: 
-
 google-genai
 pypdf
-pathlib
-ctypes
 fastmcp
 requests
-tkinter   
-
-#Others: 
-
-GEMIN_API_KEY #saved in env
-Openweather_API_key #It is in the code
-

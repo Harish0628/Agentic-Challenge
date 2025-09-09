@@ -3,7 +3,7 @@ from fastmcp import Client
 from google import genai
 from google.genai import types
 
-#----------------------------------------------------------------------------------
+#----------------Creating client and defining tool-----------------------------------
 client_mcp = Client("http://127.0.0.1:8000/mcp")
 
 async def call_tool(city: str):
@@ -11,7 +11,7 @@ async def call_tool(city: str):
         result = await client_mcp.call_tool("get_weather", {"city": city})
         return str(result) 
 
-#----------------------------------------------------------------------------------
+#---------------------GEMINI LLM---------------------------------
 prompt=input("Enter the prompt: ")
 
 client_llm = genai.Client()
@@ -43,7 +43,7 @@ response1 = client_llm.models.generate_content(
             data=data_bytes,
             mime_type="text/plain"   
         ),
-        prompt+" Mention source(API,json file etc)"
+        prompt+" Mention source(API )"
     ]
 )
 

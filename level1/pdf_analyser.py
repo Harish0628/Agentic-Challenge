@@ -33,7 +33,7 @@ prompt_Label.place(x=30,y=110)
 path_Label=tkinter.Label( text="File path: ", font=("Courier", 14, "bold"), fg="#8e969e", bg="#161616")
 path_Label.place(x=30,y=65)
 
-#-------------UI logic------------------------
+#-------------UI Main------------------------
 
 path=tkinter.Entry(width=65,bg="#D4D4D4")
 path.place(x=148,y=68)
