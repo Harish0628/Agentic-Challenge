@@ -72,12 +72,12 @@ setx OPENWEATHER_API_KEY "your_gemini_key"
 
 ### LLM Call
 
-**Sample :** ![LLM Call Screenshot](Images\llm_call_sample.png)
+**Sample :** ![LLM Call Screenshot](Images/llm_call_sample.png)
 
 ### PDF Analyzer
 
 **Sample :**
- ![PDF Analyzer Screenshot](Images\PDF_analyzer_sample.png)
+ ![PDF Analyzer Screenshot](Images/PDF_analyzer_sample.png)
 
 
 ---
@@ -93,13 +93,13 @@ python level2/weather_mcp.py
 * Starts a FastMCP server with a `get_weather(city)` tool.
 
 **Sample :**
- ![MCP server Screenshot](Images\MCP_server_sample.png)
+ ![MCP server Screenshot](Images/MCP_server_sample.png)
 
 ### Run Client Agent
 **Sample :**
- ![CLient output Screenshot](Images\client_output1.png)
+ ![CLient output Screenshot](Images/client_output1.png)
 
-  ![CLient output Screenshot](Images\client_output2.png)
+  ![CLient output Screenshot](Images/client_output2.png)
 
 ---
 
